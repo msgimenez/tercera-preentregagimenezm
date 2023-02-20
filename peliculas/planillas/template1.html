@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h1 style="color:rgb(85, 8, 8)">
+
+        Arma tu lista de peliculas y series favoritas
+
+        
+
+
+    </h1>
+
+    <h2>
+
+        <p style="color:rgb(74, 9, 74)"> Mi pelicula favorita es: {{nombre}}</p>
+        <p style="color:rgb(44, 44, 110)"> Mi serie favorita es: {{serie}}</p>
+        
+
+
+
+    </h2>
+    
+    <h3 style="color:rgb(7, 88, 61)">
+        Mi pelicula y serie favoritas las estoy mirando y tambien descargando el: {{hoy}}
+    </h3>
+
+    <p>
+        <h3 style="color:brown">
+            Los generos de peliculas y series son:
+        </h3>
+
+
+        {% for n in generos %}
+           
+          {{n}}
+
+           <br>
+
+        {% endfor %}
+
+
+
+
+    </p>
+</body>
+</html>

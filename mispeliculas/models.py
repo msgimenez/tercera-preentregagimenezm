@@ -31,14 +31,4 @@ class Capitulo(models.Model):
     def __str__(self):
         return self.serie.titulo + "" + self.temporada + "x" + self.numero
         
-        """pelicula = Peliculas(titulo='Rocky',director='Silvester Stallone')
-        pelicula.save()
-        lista_peliculas=Peliculas.object.all()
-        print(lista_pelicula)
-
-        pelicula = Peliculas.object.get(titulo='Rocky')
-        print(pelicula.titulo)
-
-        pelicula = Peliculas.object.get(titulo='Titanic')
-        pelicula.director = 'otro'
-        pelicula.save()"""
+      
