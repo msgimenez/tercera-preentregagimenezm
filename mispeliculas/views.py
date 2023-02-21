@@ -8,9 +8,9 @@ def inicio(request):
     return render(request,'mispeliculas/inicio.html')
     #return HttpResponse("Bienvenidos")
 
-def peli(request):
-    #return render(request,'mispeliculas/pelis.html')
-    return HttpResponse("Vista Peliculas")
+def pelis(request):
+    return render(request,'mispeliculas/pelis.html')
+    #return HttpResponse("Vista Peliculas")
 
 def serie(request):
     return render(request,'mispeliculas/serie.html')
